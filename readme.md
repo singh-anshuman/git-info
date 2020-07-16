@@ -22,6 +22,9 @@ Displays all the branches present locally (even if they are mapped with a remote
 ###### git branch -a
 Displays all the branches including remote branches.
 
+###### git branch <BRANCH_NAME>
+Creates a new branch locally with the given name.
+
 ###### git checkout <BRANCH_NAME>
 Switches to a different branch.
 
