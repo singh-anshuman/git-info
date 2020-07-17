@@ -26,7 +26,13 @@ Displays all the branches including remote branches.
 Creates a new branch locally with the given name.
 
 ###### git push -u origin <BRANCH_NAME>
-Pushes newly created local branch to remote and sets remote upstream on this branch. 
+Pushes newly created local branch to remote and sets remote upstream on this branch.
+
+###### git branch -d <BRANCH_NAME>
+Deletes local branch.
+
+###### git push origin --delete <BRANCH_NAME>
+Deletes remote branch.
 
 ###### git checkout <BRANCH_NAME>
 Switches to a different branch.
