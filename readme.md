@@ -25,6 +25,9 @@ Displays all the branches including remote branches.
 ###### git branch <BRANCH_NAME>
 Creates a new branch locally with the given name.
 
+###### git push -u origin <BRANCH_NAME>
+Pushes newly created local branch to remote and sets remote upstream on this branch. 
+
 ###### git checkout <BRANCH_NAME>
 Switches to a different branch.
 
