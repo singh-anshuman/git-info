@@ -39,3 +39,6 @@ Switches to a different branch.
 
 ###### git checkout -b <BRANCH_NAME>
 Creates a new branch and also switches to it.
+
+###### git merge <BRANCH_NAME>
+Merges the specified branch with the currently checked out branch.
